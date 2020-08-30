@@ -3,7 +3,7 @@ all: save up
 .PHONY:save
 save:
 	git add .
-	git commit
+	git commit -m 'update'
 
 .PHONY:up
 up:

@@ -1,0 +1,27 @@
+## 读论文
++ 从论文到学术
++ 学术（以github.com为例子）的方法
+	+ 与当前学界的研究获得共识（读源码）
+	+ 在当前高度push自己的代码
++ 论文中的公式：import其他人的成果
+
+### 细节
++ 初学者看论文：通过各种手段解压缩论文
+	+ 搜PPT
+	+ 博客
+		+ medium.com
+		+ csdn, cnblogs
+		+ google, duckduckgo
+	+ 视频
+	+ 课程（online or offline）
+	+ 直接阅读代码
+	+ 书籍
+	+ 网络资源
+		+ arXiv
+		+ ResearchGate
+	+ 最好的方法：与专家甚至是作者本人交流
++ 当资源已经足够多了，要学会挑选优秀资源
+	+ 大学老师
+	+ 名人
++ 聚焦论文本身
+	+ 搞清论文位于架构中的位置（Title, abstract, introduction, conclusion）
