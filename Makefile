@@ -1,4 +1,4 @@
 all:
 	git add .
-	git commit -m 'make test'
+	git commit -m "${comment}"
 	proxychains git push -u origin master
