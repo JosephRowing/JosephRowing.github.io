@@ -1,3 +1,4 @@
+comment='no comment'
 all:
 	git add .
 	git commit -m "${comment}"
