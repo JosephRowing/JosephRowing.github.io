@@ -21,7 +21,7 @@
 title: 无名小栈
 email: example@example.com
 description: >- # this means to ignore newlines until "baseurl:"
-  关于生活、学习、经历的一丢丢记录
+  关于生活、学习、经历的一点点记录
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 github_username:  JosephRowing
