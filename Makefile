@@ -1,5 +1,11 @@
-comment='no comment'
-all:
+all: save up
+
+.PHONY:save
+save:
 	git add .
-	git commit -m "${comment}"
+	git commit
+
+.PHONY:up
+up:
 	proxychains git push -u origin master
+	
