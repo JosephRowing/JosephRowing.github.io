@@ -53,6 +53,7 @@ mathjax: true
     + .gitignore
     + github, sshkey
 + input to makefile
+
 # 其他
 + Medication（冥想）
 [Meditation 101 - Learn How to Meditate in Our Beginner's Guide Animation](https://www.youtube.com/watch?v=rqoxYKtEWEc)
