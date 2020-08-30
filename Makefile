@@ -8,4 +8,3 @@ save:
 .PHONY:up
 up:
 	proxychains git push -u origin master
-	
