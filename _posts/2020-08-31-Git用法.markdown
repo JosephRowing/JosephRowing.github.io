@@ -80,12 +80,14 @@ mathjax: true
 	$ git checkout {commit}
 	$ git checkout -b {branch_name}
 ```
+
 ## 远程仓库
 + 添加remote并Push到remote origin
 ```
 	$ git remote add origin git@github.com:michaelliao/learngit.git
 	$ git push -u origin master // 第一次push加上-u，以后的push就会自动追踪
 ```
+
 ## 分支管理
 ```
 	$ git switch
@@ -96,12 +98,14 @@ mathjax: true
 	$ git checkout -b dev
 	$ git merge
 ```	
+
 ## 标签管理
 ```
 	$ git tags
 	$ git checkout tags/v1.0
 	$ git tag -d v0.9
 ```
+
 # Cheat Sheet
 写到最后，太困，不想继续写了，直接贴两张命令速查表吧
 ![error](/data/git-cheatsheet-page-001.jpg)
