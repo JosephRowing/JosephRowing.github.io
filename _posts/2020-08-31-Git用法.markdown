@@ -1,8 +1,8 @@
 ---
 layout: post
 title:  "Git 用法"
-categories: git
-tags: programming git learning
+categories: linux
+tags: programming git learning linux
 author: JosephRowing
 mathjax: true
 ---
