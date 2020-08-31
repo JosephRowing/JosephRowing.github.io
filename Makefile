@@ -7,4 +7,4 @@ save:
 
 .PHONY:up
 up:
-	proxychains git push -u origin master
+	proxychains git push origin master
