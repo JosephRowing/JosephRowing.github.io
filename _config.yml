@@ -35,6 +35,7 @@ google_analytics_id: UA-176821876-1 # google 分析追踪id
 markdown: kramdown
 kramdown:
   auto_id_prefix: true
+  auto_ids: true
 
 kramdown:
   input: GFM
