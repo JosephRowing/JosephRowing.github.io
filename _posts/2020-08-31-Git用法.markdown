@@ -15,96 +15,87 @@ mathjax: true
 - [Pro Git](https://git-scm.com/book/en/v2)
 
 # 基本概念
-# ★工作区、缓存区、提交
+## 工作区、缓存区、提交
 + 工作区（Working Directory）
 + 缓存区（Stage）
 + 提交（commited, branch, tag）
 
-# ★正常的工作流程
+## 正常的工作流程
 工作区修改，add到缓存区，再commit。
 
-# ★提交、分支
+## 提交、分支
 + 每个commit相当于一个状态的hash
 + 每个branch相当于指向某一个commit的指针
 
 # 常用命令
-# ★初始化仓库
+## 初始化仓库
 ```
-	$ git init
+        git init
 ```
-# ★添加文件到缓冲区
+## 添加文件到缓冲区
 ```
-	$ git add {file}
+        git add {file}
 ```
 如：
 ```
-	$ git add readme.md
+        git add readme.md
 ```
-# ★提交到仓库
+## 提交到仓库
 ```
-	$ git commit
+        git commit
 ```
-# ★查看改动状态
+## 查看改动状态
 ```
-	$ git status
+        git status
 ```
-# ★查看详细改动状态
+## 查看详细改动状态
 ```
-	$ git diff {file}
+        git diff {file}
 ```
-# ★查看日志
+## 查看日志
 ```
-	$ git log
-	$ git log --oneline --graph --decorate --all
+        git log
+        git log --oneline --graph --decorate --all
 ```
-# ★回退到指定版本
+## 回退到指定版本
 ```
-	$ git reset --hard {commit}
+        git reset --hard {commit}
 ```
-# ★查看改动日志
+## 查看改动日志
 ```
-	$ git reflog
+        git reflog
 ```
-# ★时光机
+## 时光机
 + 撤销工作区修改，此时还没提交到缓冲区
 ```
-	$ git checkout -- {file}
+        git checkout -- {file}
 ```
 + 已经提交到缓冲区，撤销缓冲区内容
 ```
-	$ git reset HEAD {file}
-	$ git checkout -- {file}
+        git reset HEAD {file}
+        git checkout -- {file}
 ```
 + 回退到指定版本
 ```
-	$ git checkout {commit}
-	$ git checkout -b {branch_name}
+        git checkout {commit}
+        git checkout -b {branch_name}
 ```
-
-# ★远程仓库
+## 远程仓库
 + 添加remote并Push到remote origin
 ```
-	$ git remote add origin git@github.com:michaelliao/learngit.git
-	$ git push -u origin master // 第一次push加上-u，以后的push就会自动追踪
+        $ git remote add origin git@github.com:michaelliao/learngit.git
+        $ git push -u origin master // 第一次push加上-u，以后的push就会自动追踪
 ```
+## 分支管理
++ git switch
++ git switch -c dev
++ git branch dev
++ git branch -f master dev
++ git branch -d dev
++ git checkout -b dev
++ git merge
 
-# ★分支管理
-```
-	$ git switch
-	$ git switch -c dev
-	$ git branch dev
-	$ git branch -f master dev
-	$ git branch -d dev
-	$ git checkout -b dev
-	$ git merge
-```	
-
-# ★标签管理
-```
-	$ git tags
-	$ git checkout tags/v1.0
-	$ git tag -d v0.9
-```
+## 标签管理
 
 # Cheat Sheet
 写到最后，太困，不想继续写了，直接贴两张命令速查表吧
