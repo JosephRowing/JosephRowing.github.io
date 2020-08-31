@@ -15,24 +15,24 @@ mathjax: true
 - [Pro Git](https://git-scm.com/book/en/v2)
 
 # 基本概念
-## 工作区、缓存区、提交
+# ★工作区、缓存区、提交
 + 工作区（Working Directory）
 + 缓存区（Stage）
 + 提交（commited, branch, tag）
 
-## 正常的工作流程
+# ★正常的工作流程
 工作区修改，add到缓存区，再commit。
 
-## 提交、分支
+# ★提交、分支
 + 每个commit相当于一个状态的hash
 + 每个branch相当于指向某一个commit的指针
 
 # 常用命令
-## 初始化仓库
+# ★初始化仓库
 ```
 	$ git init
 ```
-## 添加文件到缓冲区
+# ★添加文件到缓冲区
 ```
 	$ git add {file}
 ```
@@ -40,32 +40,32 @@ mathjax: true
 ```
 	$ git add readme.md
 ```
-## 提交到仓库
+# ★提交到仓库
 ```
 	$ git commit
 ```
-## 查看改动状态
+# ★查看改动状态
 ```
 	$ git status
 ```
-## 查看详细改动状态
+# ★查看详细改动状态
 ```
 	$ git diff {file}
 ```
-## 查看日志
+# ★查看日志
 ```
 	$ git log
 	$ git log --oneline --graph --decorate --all
 ```
-## 回退到指定版本
+# ★回退到指定版本
 ```
 	$ git reset --hard {commit}
 ```
-## 查看改动日志
+# ★查看改动日志
 ```
 	$ git reflog
 ```
-## 时光机
+# ★时光机
 + 撤销工作区修改，此时还没提交到缓冲区
 ```
 	$ git checkout -- {file}
@@ -81,14 +81,14 @@ mathjax: true
 	$ git checkout -b {branch_name}
 ```
 
-## 远程仓库
+# ★远程仓库
 + 添加remote并Push到remote origin
 ```
 	$ git remote add origin git@github.com:michaelliao/learngit.git
 	$ git push -u origin master // 第一次push加上-u，以后的push就会自动追踪
 ```
 
-## 分支管理
+# ★分支管理
 ```
 	$ git switch
 	$ git switch -c dev
@@ -99,7 +99,7 @@ mathjax: true
 	$ git merge
 ```	
 
-## 标签管理
+# ★标签管理
 ```
 	$ git tags
 	$ git checkout tags/v1.0
