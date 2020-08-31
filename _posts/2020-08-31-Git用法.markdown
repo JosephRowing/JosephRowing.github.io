@@ -19,19 +19,37 @@ mathjax: true
 + 工作区（Working Directory）
 + 缓存区（Stage）
 + 提交（commited, branch, tag）
+
 ## 正常的工作流程
 工作区修改，add到缓存区，再commit。
 
-# Useful Commands
-## Create Repo
+# 常用命令
+## 初始化仓库
 ```
 	git init
 ```
-## add to Stage
+## 添加文件到缓冲区
 ```
 	git add {file}
 ```
 如：
 ```
 	git add readme.md
+```
+## 提交到仓库
+```
+	git commit
+```
+## 查看改动状态
+```
+	git status
+```
+## 查看详细改动状态
+```
+	git diff {file}
+```
+## 查看日志
+```
+	git log
+	git log --oneline --graph --decorate --all
 ```
