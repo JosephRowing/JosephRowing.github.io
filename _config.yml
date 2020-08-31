@@ -32,8 +32,9 @@ description_footer: 本站记录我的沿途风景！
 google_analytics_id: UA-176821876-1 # google 分析追踪id
 
 # Build settings
-# markdown: kramdown
-markdown: CommonMarkPermalink
+markdown: kramdown
+kramdown:
+  auto_id_prefix: true
 
 kramdown:
   input: GFM
