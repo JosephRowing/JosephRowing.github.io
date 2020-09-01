@@ -1,9 +1,15 @@
-all: save up
+all: commit up
+gen: auto up
 
-.PHONY:save
-save:
+.PHONY: auto
+auto:
 	git add .
 	git commit -m 'update'
+
+.PHONY: commit
+commit:
+	git add .
+	git commit
 
 .PHONY:up
 up:
