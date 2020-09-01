@@ -17,4 +17,4 @@ up:
 
 .PHONY: create
 create:
-	bash ./tools/generateFileName.sh
+	bash ./tools/generateFile.sh
