@@ -14,3 +14,7 @@ commit:
 .PHONY:up
 up:
 	proxychains git push origin master
+
+.PHONY: create
+create:
+	bash ./tools/generateFileName.sh
