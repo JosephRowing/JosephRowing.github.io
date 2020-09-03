@@ -10,8 +10,8 @@ if [[ "${flag}" = "y" || "${flag}" = "" ]]
 then
 	touch _posts/${filename}
 	cat _posts/2020-08-30-Hello-World.markdown > _posts/${filename}
-	echo "[*] file is created"
 	sed -i "s/hello world articile/${origin_filename}/g" _posts/${filename}
+	echo "[*] file is created"
 else
 	echo "[-] file does not create"
 fi
