@@ -1,15 +1,17 @@
 date=$(date +%F)
 read -p "Please input the filename:" filename 
+origin_filename=${filename}
 filename=$(echo -e ${filename} | sed 's/ /-/g')
 filename=${date}-${filename}.markdown
 # echo $filename
 
-read -p "Create file _posts/${filename}?(Y/n)" flag
+read -p "> Create file _posts/${filename}?(Y/n)" flag
 if [[ "${flag}" = "y" || "${flag}" = "" ]]
 then
 	touch _posts/${filename}
 	cat _posts/2020-08-30-Hello-World.markdown > _posts/${filename}
-	echo "done, file is created"
+	echo "[*] file is created"
+	sed -i "s/hello world articile/${origin_filename}/g" _posts/${filename}
 else
-	echo "okey, file not create"
+	echo "[-] file does not create"
 fi
