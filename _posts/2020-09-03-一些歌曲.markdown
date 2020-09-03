@@ -1,0 +1,16 @@
+---
+layout: post
+title:  "一些歌曲"
+categories: 日常随笔
+tags: 日常随笔 歌曲
+author: JosephRowing
+mathjax: true
+---
+* content
+{:toc}
+# List
++ 平凡之路
++ 追梦赤子心
++ 白羊
++ 空空如也
++ 起风了
