@@ -1,2 +1,12 @@
+---
+layout: post
+title:  "高铁感想"
+categories: 日常随笔
+tags: 日常随笔
+author: JosephRowing
+mathjax: true
+---
+* content
+{:toc}
 + 高铁价格差不多为0.5元/公里
 + 高铁一等座价格差不多为二等座的1.5倍
